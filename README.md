@@ -24,6 +24,7 @@ Clone the repository using the --recursive flag to download the necessary submod
 
 Then, run the following commands to compile the code:
 
+    cd MeshDecimation
     mkdir build
     cd build
     cmake ..
