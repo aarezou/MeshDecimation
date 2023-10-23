@@ -7,8 +7,8 @@ In short, the goal is to simplify the input mesh by collapsing n edges of it. To
 The following explanation is borrowed from the assignment defenition:
 
     You are to implement a mesh decimation algorithm driven by the quadric-based errors, where the outer optimization is implemented using the multiple choice scheme. The input mesh is assumed to be a *connected, closed manifold triangle mesh*. Thus there is no need to implement vertex pair collapse, just implement edge collapse.
-    The original mesh simplification paper using quadric-based error metrics is [here](http://mgarland.org/files/papers/quadrics.pdf).
-    The paper on the use of the multiple-choice scheme is [here](http://www.graphics.rwth-aachen.de/media/papers/mcd_vmv021.pdf).
+    The original mesh simplification paper using quadric-based error metrics is here http://mgarland.org/files/papers/quadrics.pdf.
+    The paper on the use of the multiple-choice scheme is here http://www.graphics.rwth-aachen.de/media/papers/mcd_vmv021.pdf.
 
     Multiple choice scheme: Instead of relying on a priority queue which enables us to choose the edge collapse that would introduce the least quadric error, select the edge collapse amongst k randomly chosen candidate edges which gives the least quadric error.
 
