@@ -18,10 +18,9 @@ The following explanation is borrowed from the assignment defenition:
 
 
 ## How to Run the Code
-Run the following commands to download the necessary submodules:
+Clone the repository using the --recursive flag to download the necessary submodules:
 
-    git submodule add https://github.com/darrenmothersele/embed-resource.git lib/embed-resource
-    git submodule add https://github.com/wjakob/nanogui.git lib/nanogui --recursive
+    git clone https://github.com/aarezou/MeshDecimation.git --recursive
 
 Then, run the following commands to compile the code:
 
